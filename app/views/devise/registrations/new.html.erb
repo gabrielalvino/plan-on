@@ -31,11 +31,14 @@
             <%= f.button :submit, "Sign up", class:"btn btn-purple rounded-pill"%>
           </div>
         <% end %>
-        <%= link_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path, method: :post %>
-        
-        <button class="btn btn-block btn-login-google">
-        <img class="float-left mt-1" src="https://cloudfront.grancursosonline.com.br/assets/site/img/ico/google-icon-15x15.svg"> Continuar com Google
-        </button>
+
+        <div class "signup- justify-content-center">
+              <%= link_to user_google_oauth2_omniauth_authorize_path,
+              method: :post do %>
+             <img class="float-left my-4 texta" src="https://cloudfront.grancursosonline.com.br/assets/site/img/ico/google-icon-15x15.svg"> Sign Up
+        </div>
+        <% end %>
+
 
       </div>
       <div class="col-3 roda-da-vida">
