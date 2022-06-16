@@ -71,6 +71,33 @@
   color: $purple;
 }
 
+<<<<<<< HEAD
+
+//  Mudança no edit
+
+.flatpickr {
+  a { text-decoration: none;
+    background-color: #6D5B98;
+    color: white;
+  }
+
+}
+
+// Css Modal
+.modal-content{
+
+  .modal-header {
+    color: #6D5B98;
+  }
+  .form-label{
+    color: #6D5B98;
+  }
+
+
+
+
+
+=======
 .modal-card {
   height: 400px;
 }
@@ -81,4 +108,5 @@
   &:hover {
     color: $purple;
   }
+>>>>>>> master
 }
